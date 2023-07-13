@@ -29,7 +29,7 @@ Input: 0 Output: 0
 
 class Solution:    
     def digitdecrypt(self, num):
-      if num = 0:
+      if num == 0:
         return 0
       if num%9 != 0:
         return num%9
